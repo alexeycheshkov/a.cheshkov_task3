@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="All Test Suite">
+    <test name="C:/Users/DeathFreak/IdeaProjects/a.cheshkov_task3">
+        <parameter name="date_filter" value="2015-11-07"/>
+        <parameter name="browser_filter_1" value="firefox"/>
+        <parameter name="browser_filter_2" value="chrome"/>
+        <classes>
+            <class name="SqlDbTest"/>
+        </classes>
+    </test>
+</suite>
